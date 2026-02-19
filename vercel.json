@@ -1,0 +1,32 @@
+{
+    "rewrites": [
+        {
+            "source": "/upload",
+            "destination": "/api/index.py"
+        },
+        {
+            "source": "/clusters",
+            "destination": "/api/index.py"
+        },
+        {
+            "source": "/insights",
+            "destination": "/api/index.py"
+        },
+        {
+            "source": "/download",
+            "destination": "/api/index.py"
+        },
+        {
+            "source": "/docs",
+            "destination": "/api/index.py"
+        },
+        {
+            "source": "/openapi.json",
+            "destination": "/api/index.py"
+        },
+        {
+            "source": "/(.*)",
+            "destination": "/index.html"
+        }
+    ]
+}
